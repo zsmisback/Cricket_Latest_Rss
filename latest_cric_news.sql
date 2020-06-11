@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 11, 2020 at 02:10 PM
+-- Generation Time: Jun 11, 2020 at 04:28 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -33,6 +33,7 @@ CREATE TABLE `latest_cric_news` (
   `title` varchar(255) NOT NULL,
   `description` varchar(255) NOT NULL,
   `pubdate` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
   `link` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -54,7 +55,7 @@ ALTER TABLE `latest_cric_news`
 -- AUTO_INCREMENT for table `latest_cric_news`
 --
 ALTER TABLE `latest_cric_news`
-  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1920;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
