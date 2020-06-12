@@ -2,7 +2,7 @@
 
 function espnnews()
 {
-	include 'Back_End/config.php';
+	include 'config.php';
 	
 $url = "https://www.espncricinfo.com/rss/content/story/feeds/0.xml";
 $xml = simplexml_load_file($url);
@@ -40,7 +40,7 @@ echo "<br>";
 
 function timesofindianews()
 {
-	include 'Back_End/config.php';
+	include 'config.php';
 
 $url2 = "https://timesofindia.indiatimes.com/rssfeeds/54829575.cms";
 $xml2 = simplexml_load_file($url2);
@@ -73,7 +73,7 @@ echo "<br>";
 
 function gethindunews()
 {
-	include 'Back_End/config.php';
+	include 'config.php';
 
 $url3 = "https://www.thehindu.com/sport/cricket/feeder/default.rss";
 $xml3 = simplexml_load_file($url3);
